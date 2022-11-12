@@ -29,7 +29,7 @@ s.subspec 'Core' do |ss|
     # Core dependencies
     ss.dependency 'BigInt', '~> 5.2.0'
     ss.dependency 'CryptoSwift', '~> 1.5.1'
-    ss.dependency 'secp256k1.swift', '~> 0.1'
+    ss.dependency 'secp256k1.c', '~> 0.1'
   end
 
   s.subspec 'HTTPExtension' do |ss|
